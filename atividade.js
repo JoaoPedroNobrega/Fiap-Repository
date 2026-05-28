@@ -1,5 +1,0 @@
-let nome = prompt('Digite seu nome: ')
-let numero = parseInt(prompt('Digite um número: '))
-let numero2 = parseInt(prompt('Digite outro número: '))
-console.log(`A soma do ${numero} mais o ${numero2} é de ${numero + numero2}`)
-alert(`${nome} o produto desses dois números é ${numero * numero2}`) 
