@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/pseudo.css">
+    <title>Pseudo Aula</title>
+</head>
+<body>
+    
+    <section class="livro">
+        <div class="pedido">
+            <h2>Faça seu pedido:</h2>
+
+            <form action="">
+                <input required type="text" placeholder="Digite seu nome">
+                <input required type="email" placeholder="Digite seu email">
+                <textarea  name="observacoes" id="observacoes" placeholder="Observações"></textarea>
+
+    <select name="livros" id="livros">
+        <option value="selecione" disabled selected>Selecione um livro</option>
+        <option value="bela-fera">A Bela e a Fera</option>
+        <option value="branca-neve">Branca de Neve</option>
+        <option value="pequena-sereia">A Pequena Sereia</option>
+        <option value="cinderela">Cinderela</option>
+        <option value="mulan">Mulan</option>
+        <option value="magico-oz">O Mágico de Oz</option>
+    </select>
+
+                <div class="presente">
+                    <h4>Embrulhar para presente?</h4>
+
+                    <input required type="radio" id="sim" name="presente" value="sim">
+                    <label for="sim">Sim</label>
+
+                    <input required type="radio" id="nao" name="presente" value="nao">
+                    <label for="nao">Não</label>
+
+                </div>
+
+                <div class="termos">
+                    <input required type="checkbox" id="termos">
+                    <label for="termos">Li e aceio os termos</label>
+
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="modelo">
+            <img src="./assets/images/carta-bela.jpg" alt="Carta da Bela e a Fera">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam cumque nemo commodi ad quo aliquid excepturi doloribus voluptate eligendi.</p>
+
+        </div>
+    </section>
+
+    <section class="ranking">
+        <h2>Livros mais vendidos</h2>
+
+        <ol>
+            <li class="top3">A Bela e a Fera</li>
+            <li class="top3">Branca de Neve</li>
+            <li class="top3">A Pequena Sereia</li>
+            <li>Cinderela</li>
+            <li>Mulan</li>
+            <li>O Mágico de Oz</li>
+        </ol>
+
+    </section>
+
+</body>
+</html>

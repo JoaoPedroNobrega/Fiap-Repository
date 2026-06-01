@@ -1,0 +1,22 @@
+inpu, select, textarea {
+    background: #f8eee2;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #793f1d;
+    font-family: Roboto, Calibri, cursive;
+    resize: none;
+    transition: all .5s ease-in-out;
+}
+
+input[type=submit] {
+    background-color: #793f1d;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    width: fit-conten;
+    padding: 10px 30px;
+    margin: 0 0 0 auto;
+    transition: background-color .5s ease-in-out
+}

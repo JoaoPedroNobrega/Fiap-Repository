@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Editor com CSS Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <section class="editor">
+        <h1>Mini Edior de Imagens</h1>
+        <p>Use os controles para aplicar filtros CSS na imagem.</p>
+
+        <div class="image-box">
+            <img
+            id="preview" 
+            src="https://picsum.photos/id/1015/500/300"
+             alt="Paisagem">
+
+        </div>
+        <div class="filter-code">
+            <strong>CSS Aplicado:</strong>
+            <code id="cssCode">filter: none;</code>
+        </div>
+        </section>
+
+        <section class="controls">
+            <h2>Filtros</h2>
+
+            <label>
+                Brilho
+                <input type="range" id="brightness" min="0" max="200" value="100">
+                <span id="brightnessValue">100%</span>
+            </label>
+            <label>
+                Contraste
+                <input type="range" id="contrast" min="0" max="200" value="100">
+                <span id="contrastValue">100%</span>
+            </label>
+            <label>
+                Saturação
+                <input type="range" id="saturate" min="0" max="300" value="100">
+                <span id="saturateValue">100%</span>
+            </label>
+            <label>
+                Preto e Branco
+                <input type="range" id="grayscale" min="0" max="100" value="0">
+                <span id="grayscaleValue">0%</span>
+            </label>
+            <label>
+                Sépia
+                <input type="range" id="sepia" min="0" max="100" value="0">
+                <span id="sepiaValue">0%</span>
+            </label>
+            <label>
+                Desfoque
+                <input type="range" id="blur" min="0" max="10" value="0">
+                <span id="blurValue">0px</span>
+            </label>
+            <label>
+                Inverter Cores
+                <input type="range" id="invert" min="0" max="100" value="0">
+                <span id="invertValue">0%</span>
+            </label>
+            <button id="resetBtn">Resetar filtros</button>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
