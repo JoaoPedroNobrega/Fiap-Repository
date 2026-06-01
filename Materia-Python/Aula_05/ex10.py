@@ -1,0 +1,5 @@
+a = int(input("Digite um número inteiro com três dígitos: "))
+texto = str(a)
+print(texto[2])
+print(texto[1])
+print(texto[0])

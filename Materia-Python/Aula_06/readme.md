@@ -1,0 +1,1 @@
+Aula sobre operadores relacionais e lógicos

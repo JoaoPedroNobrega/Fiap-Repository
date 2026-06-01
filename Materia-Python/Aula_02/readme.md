@@ -1,0 +1,1 @@
+Aula teórica sobre variáveis e tipos de dados
